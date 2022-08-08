@@ -1,0 +1,21 @@
+{
+  "name": "Persian Grammarly ",
+  "version": "1.0",
+  "description": "Build an Extension with Angular",
+  "manifest_version": 3,
+  "action": {
+      "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "webNavigation",
+    "scripting",
+    "notifications",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+  "service_worker": "background.js",
+  "type": "module"
+  }
+}
